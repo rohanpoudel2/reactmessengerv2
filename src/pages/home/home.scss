@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F7F6FB;
+  padding: 20px;
+  height: fit-content;
+
+  .left {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: scroll;
+  }
+
+  .right {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+}

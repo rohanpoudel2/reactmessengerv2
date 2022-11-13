@@ -1,0 +1,49 @@
+.chatbubble {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .bubble {
+    width: 50%;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+    img {
+      width: 100px;
+      margin-top: 20px;
+    }
+  }
+
+  .bubbleSent {
+    background-color: rebeccapurple;
+    margin-left: auto;
+
+    img {
+      margin-left: auto;
+
+    }
+  }
+
+  .bubbleReceive {
+    background-color: #F7F6FB;
+    color: inherit;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+
+    img {
+      margin-left: auto;
+    }
+  }
+
+
+
+  .time {
+    font-size: 14px;
+  }
+}
